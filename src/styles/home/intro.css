@@ -1,4 +1,50 @@
-.intro {
-  padding: 2rem;
+.intro * {
   border: 1px solid red;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+  gap: 2rem;
+}
+
+.intro .info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  background: var(--p1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.intro .info h2 {
+  font-size: 1.25rem;
+}
+
+.intro .info ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.intro .info ul li::before {
+  content: '';
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--p2);
+  margin: auto 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    padding: 1.25rem 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro {
+    padding: 0.875rem 1.75rem;
+  }
 }

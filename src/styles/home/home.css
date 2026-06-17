@@ -7,7 +7,6 @@ body {
 }
 
 main {
-  /* border: 1px solid red; */
   max-width: 800px;
   background: var(--w);
   margin: 6rem auto;
