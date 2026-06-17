@@ -1,0 +1,17 @@
+/* .ingredients * {
+  border: 1px solid red;
+} */
+.ingredients ul li {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients ul li::before {
+  content: '';
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: var(--b);
+  margin: auto 1rem;
+}

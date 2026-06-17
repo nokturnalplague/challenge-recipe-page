@@ -24,9 +24,10 @@
 .intro .info ul li::before {
   content: '';
   display: inline-block;
+  flex-shrink: 0;
   width: 0.25rem;
   height: 0.25rem;
   border-radius: 0.25rem;
   background: var(--p2);
-  margin: auto 0.5rem;
+  margin: auto 1rem;
 }
