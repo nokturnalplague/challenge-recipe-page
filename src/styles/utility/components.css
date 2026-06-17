@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.container + .container {
+  border-bottom: 1px solid red;
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro {
+    padding: 1.75rem;
+  }
+}

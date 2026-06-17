@@ -4,8 +4,10 @@
 /* UTILITY */
 @import url('./utility/colors.css');
 @import url('./utility/fonts.css');
+@import url('./utility/components.css');
 
 /* HOME */
 @import url('./home/home.css');
 @import url('./home/banner.css');
 @import url('./home/intro.css');
+@import url('./home/ingredients.css');
