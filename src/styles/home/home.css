@@ -16,6 +16,18 @@ main {
   overflow: hidden;
 }
 
+@media (max-width: 1000px) {
+  main {
+    margin: 3rem 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    margin: 1rem 1rem;
+  }
+}
+
 @media (max-width: 375px) {
   main {
     margin: 0;
