@@ -1,119 +1,82 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Recipe Page
 
-Esta é uma solução para o [desafio de página de receita no Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm), uma plataforma que te desafia a melhorar suas habilidades de código contruindo projetos realistas.
+Esta é a minha solução para o desafio [Recipe Page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) do Frontend Mentor. O objetivo do projeto foi recriar uma página de receita a partir de um layout fornecido, praticando estruturação semântica com HTML e estilização com CSS.
 
-## Table of contents
+## Sumário
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Visão Geral](#visão-geral)
   - [Screenshot](#screenshot)
-  - [Links](#links) 
-  - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Links](#links)
+  - [Meu Processo](#meu-processo)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [O Que Eu Aprendi](#o-que-eu-aprendi)
+  - [Recursos Úteis](#recursos-úteis)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Visão Geral
 
-## Overview
+Os usuários devem ser capazes de:
+
+- Visualizar a página de receita com um layout agradável em diferentes tamanhos de tela.
+- Ler as informações de forma clara e organizada.
+- Navegar pelo conteúdo sem perda de legibilidade em dispositivos menores.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solução URL: [Challenge Recipe Page](https://github.com/nokturnalplague/challenge-recipe-page)
+- Live Site URL: [Simple Omelette Recipe](https://nokturnalplague.github.io/challenge-recipe-page/)
 
-## My process
+## Meu Processo
 
-### Built with
+O projeto foi desenvolvido em uma tarde como forma de praticar conceitos fundamentais de HTML e CSS.
 
-- Semantic HTML5 markup
-- CSS custom properties
+A página foi construída com base na [referência visual do desafio](./design), sem o uso de medidas exatas de um arquivo de design. O layout foi reproduzido manualmente, buscando manter fidelidade à composição, aos espaçamentos e à aparência geral do modelo original.
+
+A estrutura do projeto segue o padrão apresentado no curso [HTML e CSS para Iniciantes da Origamid](https://www.origamid.com/curso/html-e-css-para-iniciantes/), com os arquivos organizados de forma simples, clara e escalável. Os estilos foram separados em múltiplos arquivos, o que facilita a manutenção do código e torna mais simples localizar componentes específicos durante futuras alterações.
+
+Também foi adotada uma abordagem de CSS utilitário, em que propriedades recorrentes, como cores e estilos de fonte, são transformadas em classes reutilizáveis e aplicadas diretamente no HTML. Essa escolha contribui para a padronização visual da interface e torna a construção do layout mais consistente ao longo da página.
+
+### Tecnologias Utilizadas
+
+- HTML5 semântico
+- CSS3
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Pseudo-elementos (`::before`)
+- CSS Custom Properties (variáveis CSS)
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### O Que Eu Aprendi
 
-### What I learned
+Durante o desenvolvimento deste projeto, aprendi uma forma mais flexível de criar listas numeradas personalizadas utilizando recursos nativos do CSS.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Em vez de depender apenas da numeração padrão de uma lista ordenada, utilizei pseudo-elementos em conjunto com CSS counters para controlar melhor a aparência dos números. Para isso, trabalhei com as propriedades:
 
-To see how you can add code snippets, see below:
+- `counter-reset`
+- `counter-increment`
+- `counter()`
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Exemplo simplificado:
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.instructions ol {
+  counter-reset: step;
+}
+
+.instructions ol li {
+  counter-increment: step;
+}
+
+.instructions ol li::before {
+  content: counter(step);
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
+Esse recurso permite criar numerações personalizadas com maior controle visual, mantendo a estrutura do HTML organizada e flexível.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Além disso, o projeto também serviu para praticar a estruturação semântica de conteúdo, a organização de arquivos CSS, a construção de layouts responsivos com Flexbox e o uso de pseudo-elementos para enriquecer a interface.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### Recursos Úteis
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-
-# [Challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+- [Usando CSS counters](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Guides/Counter_styles/Using_counters)
