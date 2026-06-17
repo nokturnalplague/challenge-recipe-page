@@ -7,3 +7,5 @@
 
 /* HOME */
 @import url('./home/home.css');
+@import url('./home/banner.css');
+@import url('./home/intro.css');

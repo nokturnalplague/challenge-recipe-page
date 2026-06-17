@@ -11,8 +11,8 @@ main {
   max-width: 800px;
   background: var(--w);
   margin: 6rem auto;
-  box-shadow: 0 0 8px 4px hsla(30, 18%, 87%, .5);
-  border-radius: 3rem;
+  box-shadow: 0 0 8px 4px hsla(30, 18%, 87%, 0.5);
+  border-radius: 2rem;
   overflow: hidden;
 }
 

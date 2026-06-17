@@ -14,14 +14,14 @@ p 16px
 .font-1-l {
   font-family: var(--font-display);
   font-weight: 400;
-  /* font-size: ; */
+  font-size: 2rem;
   line-height: 1.2;
 }
 
 .font-1-m {
   font-family: var(--font-display);
   font-weight: 400;
-  /* font-size: ; */
+  font-size: 1.5rem;
   line-height: 1.2;
 }
 
@@ -35,13 +35,33 @@ p 16px
 .font-2-semibold {
   font-family: var(--font-body);
   font-weight: 600;
-  /* font-size: 1rem; */
-  /* line-height: 1.5; */
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .font-2-bold {
   font-family: var(--font-body);
   font-weight: 700;
-  /* font-size: 1rem; */
-  /* line-height: 1.5; */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .font-1-l {
+    font-size: 1.75rem;
+  }
+  
+  .font-1-m {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .font-1-l {
+    font-size: 1.5rem;
+  }
+
+  .font-1-m {
+    font-size: 1.275rem;
+  }
 }
