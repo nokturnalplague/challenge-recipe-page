@@ -3,16 +3,29 @@
   flex-direction: column;
   padding: 3rem;
   gap: 2rem;
+  position: relative;
 }
 
+.spacer::after {
+  content: "";
+  position: absolute;
+  left: 1.75rem;
+  right: 1.75rem;
+  bottom: 0;
+  height: 1px;
+  background: var(--s2);
+}
+
+
+
 @media (max-width: 1000px) {
-  .intro {
+  .container {
     padding: 2.5rem;
   }
 }
 
 @media (max-width: 500px) {
-  .intro {
+  .container {
     padding: 1.75rem;
   }
 }
