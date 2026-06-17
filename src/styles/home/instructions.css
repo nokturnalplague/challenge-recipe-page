@@ -1,0 +1,19 @@
+.instructions {
+  counter-reset: step;
+}
+
+.instructions ol li {
+  counter-increment: step;
+  display: flex;
+  align-items: baseline;
+}
+
+.instructions ol li::before {
+  content: counter(step) '.';
+  display: inline-block;
+  flex-shrink: 0;
+  color: var(--b);
+  margin: 0 1rem;
+  font-weight: bold;
+  font-family: var(--font-body);
+}

@@ -20,7 +20,10 @@ p {
   margin: 0;
 }
 
-ul {
+ul, ol {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
   padding: 0;
   list-style: none;
   line-height: 1.75rem;

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-/*
-Young Serif 400
-Outfit 400 600 700
-p 16px
-*/
-
 :root {
   --font-display: 'Young Serif', serif;
   --font-body: 'Outfit', sans-serif;
