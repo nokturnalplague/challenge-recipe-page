@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/*
+Young Serif 400
+Outfit 400 600 700
+p 16px
+*/
+
+:root {
+  --font-display: 'Young Serif', serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+.font-1-l {
+  font-family: var(--font-display);
+  font-weight: 400;
+  /* font-size: ; */
+  line-height: 1.2;
+}
+
+.font-1-m {
+  font-family: var(--font-display);
+  font-weight: 400;
+  /* font-size: ; */
+  line-height: 1.2;
+}
+
+.font-2-regular {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-semibold {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-bold {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+}
