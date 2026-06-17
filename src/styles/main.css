@@ -1,3 +1,9 @@
+/* GLOBAL */
 @import url('./global/global.css');
+
+/* UTILITY */
 @import url('./utility/colors.css');
 @import url('./utility/fonts.css');
+
+/* HOME */
+@import url('./home/home.css');
