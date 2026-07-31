@@ -27,7 +27,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - [Solução](https://github.com/nokturnalplague/challenge-recipe-page)
-- [Simple Omelette Recipe](https://nokturnalplague.github.io/challenge-recipe-page/)
+- [Pré-visualização no GitHub Pages](https://nokturnalplague.github.io/challenge-recipe-page/)
 
 ## Meu processo
 
