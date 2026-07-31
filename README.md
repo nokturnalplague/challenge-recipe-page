@@ -12,7 +12,7 @@ Esta é a minha solução para o desafio [Recipe Page](https://www.frontendmento
   - [O Que Eu Aprendi](#o-que-eu-aprendi)
   - [Recursos Úteis](#recursos-úteis)
 
-## Visão Geral
+## Visão geral
 
 Os usuários devem ser capazes de:
 
@@ -26,10 +26,10 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução URL: [Challenge Recipe Page](https://github.com/nokturnalplague/challenge-recipe-page)
-- Live Site URL: [Simple Omelette Recipe](https://nokturnalplague.github.io/challenge-recipe-page/)
+- [Solução](https://github.com/nokturnalplague/challenge-recipe-page)
+- [Simple Omelette Recipe](https://nokturnalplague.github.io/challenge-recipe-page/)
 
-## Meu Processo
+## Meu processo
 
 O projeto foi desenvolvido em uma tarde como forma de praticar conceitos fundamentais de HTML e CSS.
 
@@ -39,7 +39,7 @@ A estrutura do projeto segue o padrão apresentado no curso [HTML e CSS para Ini
 
 Também foi adotada uma abordagem de CSS utilitário, em que propriedades recorrentes, como cores e estilos de fonte, são transformadas em classes reutilizáveis e aplicadas diretamente no HTML. Essa escolha contribui para a padronização visual da interface e torna a construção do layout mais consistente ao longo da página.
 
-### Tecnologias Utilizadas
+### Tecnologias utilizadas
 
 - HTML5 semântico
 - CSS3
@@ -47,7 +47,7 @@ Também foi adotada uma abordagem de CSS utilitário, em que propriedades recorr
 - Pseudo-elementos (`::before`)
 - CSS Custom Properties (variáveis CSS)
 
-### O Que Eu Aprendi
+### O que eu aprendi
 
 Durante o desenvolvimento deste projeto, aprendi uma forma mais flexível de criar listas numeradas personalizadas utilizando recursos nativos do CSS.
 
@@ -77,6 +77,6 @@ Esse recurso permite criar numerações personalizadas com maior controle visual
 
 Além disso, o projeto também serviu para praticar a estruturação semântica de conteúdo, a organização de arquivos CSS, a construção de layouts responsivos com Flexbox e o uso de pseudo-elementos para enriquecer a interface.
 
-### Recursos Úteis
+### Recursos úteis
 
 - [Usando CSS counters](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Guides/Counter_styles/Using_counters)
